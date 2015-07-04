@@ -4,10 +4,9 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/jquery.maphilight.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title></title>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/maphilight/jquery.maphilight.js"></script>
+		<title>Mapa do Brasil</title>
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -39,7 +38,7 @@
 				$('.map_estado').mouseover(function(){
 					var estado = $(this).attr('id');
 					console.log(estado);
-				});						
+				});
 			});
 		</script>
 		<img name="mapamarcado" src="img/mapa-marcado.png" class="map" id="mapamarcado" usemap="#m_mapamarcado" alt="mapa do Brasil" />
